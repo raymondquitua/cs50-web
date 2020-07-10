@@ -9,7 +9,10 @@ int main(void)
     printf("y is %i\n", y);
 
     //swapping
-    
+    int temp = x;
+    x = y;
+    y = temp;
+
     printf("x is now %i", x);
     printf("y is now %i", y);
 }
