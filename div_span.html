@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Web Page</title>
+    <style>
+      #top {
+        font-size: 36px;
+      }
+
+      #middle {
+        font-size: 24px;
+      }
+
+      #bottom {
+        font-size: 12px;
+        color: blue;
+      }
+      .name {
+        font-weight: bold;
+        color: red;
+      }
+
+      /* NOTES */
+      /* 1. # sign means unique id */
+      /* 2. <span> element is a generic inline container for phrasing content, which does not inherently represent anything */
+      /* 3. id - if you want to style one thing in your page use an "id" */
+      /* 4. class - but if you want to style a bunce of different thing use a "class" */
+      /* 5. when there is conflict i.e in code on line 16(color blue) and 20(color red) generally speaking css will pick/choose the specific/local. */
+      /* 6. in line 39 inserting the class in div element will make the whole line 39 bold */
+    </style>
+  </head>
+  <body>
+    <div id="top">
+      This is the <span class="name">top</span> of my web page.
+    </div>
+    <div id="middle">
+      This is the <span class="name">middle</span> of my web page.
+    </div>
+    <div id="bottom" class="name">
+      This is the <span class="name">bottom</span> of my web page.
+    </div>
+
+  </body>
+</html>
