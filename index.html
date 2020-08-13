@@ -10,12 +10,18 @@
     <body>
         <div id="app" />
         <script type="text/babel">
-          class Hello extends React.Component {
+          class App extends React.Component {
             render() {
-              return <div> Hello! </div>;
+              return (
+                <div>
+                  <div id="problem">
+                    1 + 1
+                  </div>
+                </div>
+              );
             }
           }
-          ReactDOM.render(<Hello />, document.querySelector("#app"));
+          ReactDOM.render(<App />, document.querySelector("#app"));
         </script>
 
     </body>
